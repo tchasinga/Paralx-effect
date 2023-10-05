@@ -25,7 +25,7 @@ function PagesManager() {
   return (
     <div>
       <Parallax  bgImage={image1} strength={600}>
-        <div className='content'>
+        <div className='contentosed'>
           <h1 className='home-text flex justify-center w-full h-full text-4xl home-text'>
             Welcome here again
           </h1>   <p className='paraThree'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit similique architecto sed laudantium rem at deleniti quidem facere, consectetur cum pariatur earum mollitia qui sint dolorem minus obcaecati officiis? Magni?</p>
@@ -33,7 +33,7 @@ function PagesManager() {
       </Parallax>
 
       <Parallax  bgImage={image2} strength={600}>
-        <div className='content'>
+        <div className='contentosed'>
           <h1 className='home-text flex justify-center w-full h-full text-4xl home-text'>
             Welcome here again
           </h1>
@@ -42,7 +42,7 @@ function PagesManager() {
       </Parallax>
 
       <Parallax  bgImage={image3} strength={600}>
-        <div className='content'>
+        <div className='contentosed'>
           <h1 className='home-text flex justify-center w-full h-full text-4xl home-text'>
             Welcome here again
           </h1>
